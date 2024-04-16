@@ -1,0 +1,44 @@
+body {
+    background-color: #F2F5FF;
+    margin: 0;
+    text-align: center;
+
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    padding: 1rem 0;
+}
+
+#first-sect {
+    background-color: #f5e960;
+}
+
+#second-sect {
+    background-color: #DFB2F4;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 20vw;
+    margin: 1rem;
+    padding: 2vw;
+    border: 1px solid #F49097;
+}
+
+.card img {
+    width: 20vw;
+    height: 15vw;
+    object-fit: cover;
+}
+
+iframe {
+    max-width: 80%;
+}
